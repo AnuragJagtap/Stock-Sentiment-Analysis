@@ -68,7 +68,7 @@ Data sourced from Yahoo Finance (`yfinance`) using NSE suffix `.NS`.
 ## 📡 Data Sources
 | Data Type      | Source / API             | Tools Used               |
 |----------------|--------------------------|--------------------------|
-| Stock Prices   | Yahoo Finance            | `yfinance`               |
+| Stock Prices   | Fyers API                | `fyers-apiv2`               |
 | News Headlines | Google News / NewsAPI    | `newspaper3k`, `requests`|
 | Tweets         | Twitter / X              | `snscrape`, `tweepy`     |
 | Reddit Posts   | r/IndianStockMarket      | `praw` (optional)        |
@@ -79,9 +79,8 @@ Data sourced from Yahoo Finance (`yfinance`) using NSE suffix `.NS`.
 - **Python**, **Jupyter Notebooks**
 - **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**
 - **NLTK**, **spaCy**, **VADER**, **TextBlob**, **FinBERT**
-- **Scikit-learn**, **XGBoost**, **Keras** (optional)
+- **Scikit-learn**, **XGBoost**
 - **Git + GitHub** for version control
-- **Streamlit** or **Gradio** (optional dashboard)
 
 ---
 
@@ -101,5 +100,5 @@ Data sourced from Yahoo Finance (`yfinance`) using NSE suffix `.NS`.
 
 ### Clone the repository:
 ```bash
-git clone https://github.com/yourusername/stock-sentiment-analysis.git
-cd stock-sentiment-analysis
+git clone https://github.com/AnuragJagtap/Stock-Sentiment-Analysis.git
+cd Stock-Sentiment-Analysis
